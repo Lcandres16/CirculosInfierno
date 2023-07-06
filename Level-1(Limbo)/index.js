@@ -141,8 +141,8 @@ function gameLoop() {
 function setCommonStyle() {
   ctx.shadowColor = "white";
   ctx.shadowBlur = 20;
-  ctx.lineJoin = "bevel";
-  ctx.lineWidth = 5;
+  ctx.lineJoin = "round";
+  ctx.lineWidth = 4;
 }
 
 setInterval(gameLoop, 950 / 60);
