@@ -11,7 +11,7 @@ canvas.height = 515;
 const bulletController = new BulletController(canvas);
 const player = new Player(
   canvas.width / 2.2,
-  canvas.height / 1.3,
+  canvas.height / 1.2,
   bulletController
 );
 
